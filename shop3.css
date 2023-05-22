@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hard {
+  height: 7vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.home {
+  height: 100%;
+  width: 5%;
+  font-size: 250%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home i{
+  color: red;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  background-color: gray;
+}
+.space {
+  height: 100%;
+  width: 35%;
+  background-color: black;
+  color: red;
+}
+.shop {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop i {
+  color: greenyellow;
+}
+.content {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content i{
+  color: greenyellow;
+}
+.login {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login i{
+  color: greenyellow;
+}
+.me{
+    height: 93vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.top{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  height: 6.5vh;
+}
+.home i{
+  color: greenyellow;
+  width: auto;
+  height: auto;
+}
